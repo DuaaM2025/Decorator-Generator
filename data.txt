@@ -1,0 +1,11 @@
+Reading Files Using Generators in Python
+
+Based on my study of Python generators, this project demonstrates how to read files efficiently using a generator function. Generators allow producing values one at a time with yield instead of returning all values at once.
+
+This approach is useful when working with large files because it:
+
+Reads the file line by line.
+
+Does not load the entire file into memory.
+
+Enables memory-efficient processing of large datasets.
